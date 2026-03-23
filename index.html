@@ -1,1 +1,48 @@
-<source src="video.mp4" type="video/mp4">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Built By Kulture</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <section class="hero">
+    <video autoplay muted loop playsinline class="bg-video">
+      <source src="video.mp4" type="video/mp4" />
+    </video>
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+      <h1>BUILT BY KULTURE</h1>
+      <p>Built Different</p>
+      <a href="#products" class="btn">SHOP NOW</a>
+    </div>
+  </section>
+
+  <section class="about fade">
+    <h2>Not Just A Brand</h2>
+    <p>
+      Built By Kulture is a movement. A mindset. Built for those who move
+      different, think different, and live different.
+    </p>
+  </section>
+
+  <section class="products fade" id="products">
+    <h2>Featured Pieces</h2>
+    <div class="product-grid">
+      <div class="product">BK Tee</div>
+      <div class="product">BK Hoodie</div>
+      <div class="product">BK Set</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© Built By Kulture</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
