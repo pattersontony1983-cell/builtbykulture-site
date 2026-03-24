@@ -91,9 +91,13 @@ html, body {
 }
 
 .product {
-  width: 280px;
-  padding: 30px;
-  border: 1px solid rgba(255,255,255,0.25);
+  .product img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 10px;
 }
 
 footer {
