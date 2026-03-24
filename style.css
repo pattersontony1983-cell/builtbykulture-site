@@ -90,13 +90,12 @@ html, body {
   margin-top: 30px;
 }
 
-  .product img {
+  .product {
   width: 100%;
-  max-width: 300px;
-  height: auto;
-  object-fit: contain;
-  display: block;
-  margin: 0 auto 10px;
+  max-width: 320px;
+  padding: 20px;
+  border: 1px solid rgba(255,255,255,0.25);
+  margin: 0 auto;
 }
 
 footer {
